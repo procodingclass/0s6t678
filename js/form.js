@@ -5,10 +5,10 @@ class Form {
     this.greetings = createElement("h2");
   }
   display() {
-     this.input.position(displayWidth / 2 - 115, displayHeight / 2 - 200);
-     this.input.size(180, 30);
-     this.buttonImg.position(displayWidth / 2 - 140, displayHeight / 2 - 135);
-     this.buttonImg.size(250, 100);
+     this.input.position(380, 180);
+    this.input.size(180, 30);
+    this.buttonImg.position(475 + 50, 250);
+    this.buttonImg.size(150, 50);
   }
   
 }
